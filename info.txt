@@ -1,0 +1,52 @@
+#<h4 class="three columns">全文檢索</h4>
+<input type="text" id="queryBox" class="input ui-autocomplete-input" placeholder="以空白區隔關鍵字，例如：偽造文書 股票" autocomplete="off">
+
+<div class="field nine columns"><span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" id="queryBox" class="input ui-autocomplete-input" placeholder="以空白區隔關鍵字，例如：偽造文書 股票" autocomplete="off"></div>
+<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span>
+<input type="text" id="queryBox" class="input ui-autocomplete-input" placeholder="以空白區隔關鍵字，例如：偽造文書 股票" autocomplete="off">
+
+
+#<h4 class="three columns">日期</h4>
+<select id="selectedYear" onchange="selectYear(this);">
+                <option value="-1">介於</option>
+                <option value="1">近一年</option>
+                <option value="3" selected="">近三年</option>
+                <option value="5">近五年</option>
+                <option value="10">近十年</option>
+                <option value="0">不限</option>
+            </select>
+
+#<h4 class="three columns">判决/裁定</h4>
+<div data-toggle="buttons-checkbox" id="chkType"><div class="btn default"><button type="button" value="J">判决</button></div><div class="btn default active"><button type="button" value="R">裁定</button></div><div class="btn default"><button type="button" value="P">支付命令</button></div><div class="btn default"><button type="button" value="C">刑事補償</button></div></div>
+
+<div class="btn default"><button type="button" value="J">判决</button></div>
+<button type="button" value="J">判决</button>
+
+<div class="btn default active"><button type="button" value="R">裁定</button></div>
+<button type="button" value="R">裁定</button>
+
+<div class="btn default"><button type="button" value="P">支付命令</button></div>
+<button type="button" value="P">支付命令</button>
+
+<div class="btn default"><button type="button" value="C">刑事補償</button></div>
+<button type="button" value="C">刑事補償</button>
+
+#<h4 class="three columns">法院</h4>
+<div class="picker" style="display: none;">         <select onchange="selectCondition(this);" oldvalue="courts">             <option disabled="" selected="" value="">＋更多搜尋條件</option>             <option value="courts">裁判法院</option>             <option value="case">裁判類別</option>             <option value="caseNum">判決案號</option>             <option value="issue">判決案由</option>             <option value="date">判決時間</option>             <option value="text">全文檢索</option>             <option value="level">案件審級</option>             <option value="judge">承審法官</option>             <option value="lawyer">承辦律師</option>             <option value="litigant">當事人</option>             <option value="prosecutor">檢察官</option>             <option value="clerk">書記官</option>             <option value="type">裁判種類</option>             <option value="tags">案件分類</option>             <option value="main">主文檢索</option>             <option value="statute">關聯法條</option>             <option value="result">判決勝敗</option>             <option value="money">判決金額</option>             <option value="sentence">判決刑度</option>         </select>     </div>
+
+<div title="嘉義地方法院">嘉義地方法院</div>
+
+<a class="shiftLink" href="javascript:void(0);" onclick="shiftReport('prev');return false;"><i class="icon-up-open"></i><span>上一篇</span></a>
+<i class="icon-up-open"></i>
+<_moz_generated_content_before></_moz_generated_content_before>
+<span>上一篇</span>
+
+<a class="shiftLink" href="javascript:void(0);" onclick="shiftReport('prev');return false;"><i class="icon-up-open"></i><span>上一篇</span></a>
+<i class="icon-up-open"></i>
+<_moz_generated_content_before></_moz_generated_content_before>
+<span>上一篇</span>
+
+<a class="shiftLink" href="javascript:void(0);" onclick="shiftReport('next');return false;"><i class="icon-down-open"></i><span>下一篇</span></a>
+<i class="icon-down-open"></i>
+<_moz_generated_content_before></_moz_generated_content_before>
+<span>下一篇</span>
